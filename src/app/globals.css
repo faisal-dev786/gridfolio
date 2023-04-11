@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+.wrapper{
+  width: 80%;
+  max-width: 1480px;
+  margin: auto;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+}
+p{
+  font-family: 'Inter', sans-serif;
+}
