@@ -7,7 +7,7 @@ const ColsThreeContact = () => {
     <div>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 my-16">
         <div className="bg-white border-0 shadow-xl divide-white rounded-2xl ">
-          <div className="px-6 pt-[40px] pb-[4rem] sm:px-12 sm:mt-0 sm:pt-6 sm:pb-20">
+          <div className="px-6 pt-[40px] pb-[4rem] sm:px-12 sm:mt-0 sm:pt-6 sm:pb-12">
             <span className="text-[#f1b43e] text-[5.5rem]">
               <MdCreditCard />
             </span>
