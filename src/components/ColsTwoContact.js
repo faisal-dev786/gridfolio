@@ -6,6 +6,7 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
+import ColsThreeContact from "./ColsThreeContact";
 
 const ColsTwoContact = () => {
   return (
@@ -15,7 +16,7 @@ const ColsTwoContact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#FCFAF4]">
             <div>
               <h1 className="text-[30px] sm:text-[40px] font-bold text-[#323232] tracking-[-2px]">
-                Get in Touch
+                Get in Touch <span>✨</span>
               </h1>
               <p className="text-[#727272] mt-3 text-[20px] sm:text-[26px] font-medium tracking-[-1.5px] leading-[1.3em]">
                 I’m always open to collaborate on a project or hear about an
@@ -75,20 +76,21 @@ const ColsTwoContact = () => {
                 <div className="px-3 py-3 sm:px-6 mt-10 sm:mt-0 sm:py-6">
                   <input
                     placeholder="Name"
-                    className="bg-[#FAF8F2] border-0 rounded-lg w-full  p-3"
+                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full  p-3"
                     type="text"
                   />
                   <input
                     placeholder="Email"
-                    className="bg-[#FAF8F2] border-0 rounded-lg w-full mt-5  p-3"
+                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
                     type="email"
                   />
                   <textarea
-                    className="bg-[#FAF8F2] border-0 rounded-lg w-full mt-5  p-3"
+                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
                     name=""
                     id=""
                     cols="30"
                     rows="5"
+                    placeholder="Type your message"
                   ></textarea>
                   <a href="#">
                     {" "}
@@ -100,6 +102,7 @@ const ColsTwoContact = () => {
               </div>
             </div>
           </div>
+          <ColsThreeContact />
         </div>
       </div>
     </div>
