@@ -14,7 +14,7 @@ const ColsTwoContact = () => {
       <div className="bg-[#FCFAF4] pt-20">
         <div className="wrapper">
           <div className="grid grid-cols-1 sm:grid-cols-2 bg-[#FCFAF4]">
-            <div>
+            <div className="w-[80%]">
               <h1 className="text-[30px] sm:text-[40px] font-bold text-[#323232] tracking-[-2px]">
                 Get in Touch <span>✨</span>
               </h1>
