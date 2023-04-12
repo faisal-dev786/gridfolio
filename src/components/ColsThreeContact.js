@@ -7,7 +7,7 @@ const ColsThreeContact = () => {
     <div>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 my-16">
         <div className="bg-white border-0 shadow-xl divide-white rounded-2xl ">
-          <div className="px-6 pt-[40px] pb-[4rem] sm:px-6 sm:mt-0 sm:pt-6 sm:pb-20">
+          <div className="px-6 pt-[40px] pb-[4rem] sm:px-12 sm:mt-0 sm:pt-6 sm:pb-20">
             <span className="text-[#f1b43e] text-[5.5rem]">
               <MdCreditCard />
             </span>
@@ -22,7 +22,7 @@ const ColsThreeContact = () => {
         </div>
 
         <div className="bg-white border-0 shadow-xl divide-white rounded-2xl ">
-          <div className="px-6 pt-[50px] pb-[4rem] sm:px-6 sm:mt-0 sm:py-10">
+          <div className="px-6 pt-[50px] pb-[4rem] sm:px-12 sm:mt-0 sm:py-10">
             <span className="text-[#f1b43e] pt-[20px] text-[4.25rem]">
               <FaPenNib />
             </span>
@@ -38,7 +38,7 @@ const ColsThreeContact = () => {
         </div>
 
         <div className="bg-white border-0 shadow-xl divide-white rounded-2xl ">
-          <div className="px-6 py-3 sm:px-6 pt-[50px] pb-[4rem] sm:mt-0 sm:py-10">
+          <div className="px-6 py-3 sm:px-12 pt-[50px] pb-[4rem] sm:mt-0 sm:py-10">
             <span className="text-[#f1b43e] mt-[10px] text-[4.25rem]">
               <FaBox />
             </span>
