@@ -72,34 +72,36 @@ const ColsTwoContact = () => {
               </div>
             </div>
             <div>
-              <div className="bg-white border-0 divide-white rounded-2xl">
-                <div className="px-3 py-3 sm:px-6 mt-10 sm:mt-0 sm:py-6">
-                  <input
-                    placeholder="Name"
-                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full  p-3"
-                    type="text"
-                  />
-                  <input
-                    placeholder="Email"
-                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
-                    type="email"
-                  />
-                  <textarea
-                    className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="5"
-                    placeholder="Type your message"
-                  ></textarea>
-                  <a href="#">
-                    {" "}
-                    <button className="text-[white] text-[16px] font-semibold p-4 bg-[#f1b43e] border-0 rounded-lg w-full mt-5 3">
-                      Send Message
-                    </button>
-                  </a>
+              <form action="">
+                <div className="bg-white border-0 divide-white rounded-2xl">
+                  <div className="px-3 py-3 sm:px-6 mt-10 sm:mt-0 sm:py-6">
+                    <input
+                      placeholder="Name"
+                      className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full  p-3"
+                      type="text"
+                    />
+                    <input
+                      placeholder="Email"
+                      className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
+                      type="email"
+                    />
+                    <textarea
+                      className="bg-[#FAF8F2] outline-none border-0 rounded-lg w-full mt-5  p-3"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="5"
+                      placeholder="Type your message"
+                    ></textarea>
+                    <a href="#">
+                      {" "}
+                      <button className="text-[white] text-[16px] font-semibold p-4 bg-[#f1b43e] border-0 rounded-lg w-full mt-5 3">
+                        Send Message
+                      </button>
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
           <ColsThreeContact />
