@@ -5,7 +5,7 @@ const Resume = () => {
     <div>
       <div className="bg-[#FCFAF4]">
         <div className="wrapper">
-          <div className="grid pb-[80px] sm:gap-x-[80px] pt-[90px] grid-cols-1 sm:grid-cols-3">
+          <div className="grid pb-[80px] sm:gap-x-[80px] pt-[90px] grid-cols-1 sm:grid-cols-[minmax(200px,_350px)_1fr_1fr]">
             <div className="flex flex-col gap-[10px]">
               <div className="bg-white mb-3 border-0 shadow-xl divide-white rounded-2xl">
                 <div className="px-7 py-7 sm:px-10 sm:py-12">
