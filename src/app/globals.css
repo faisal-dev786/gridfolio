@@ -15,7 +15,8 @@ p{
   font-family: 'Inter', sans-serif;
 }
 .about_me{
-  font-size: clamp(0px, 22vw);
+  font-size: clamp(0px, 22vw, 300px);
+  white-space: nowrap;
 }
 @media all and (max-width:640px){
   .aboutImg{
