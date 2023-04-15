@@ -5,8 +5,8 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      {/* <ColsTwoContact /> */}
-      <Resume />
+      <ColsTwoContact />
+      {/* <Resume /> */}
     </div>
   );
 };
