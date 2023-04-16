@@ -18,6 +18,10 @@ p{
   font-size: clamp(0px, 19vw, 300px);
   white-space: nowrap;
 }
+.line{
+  width: clamp(0px, 5vw, 100px);
+  white-space: nowrap;
+}
 @media all and (max-width:640px){
   .aboutImg{
     height: 20vh;

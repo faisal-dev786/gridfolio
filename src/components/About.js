@@ -17,7 +17,7 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className="bg-white border-0 shadow-xl mt-5 sm:mt-0 divide-white rounded-2xl">
+            <div className="bg-white border-0 min-w-[300px] shadow-xl mt-5 sm:mt-0 divide-white rounded-2xl">
               <div className="px-9 py-9">
                 <h1 className="pt-12 text-[28px] sm:text-[50px] font-bold tracking-[-2px] leading-[1.4em] text-[#323232]">
                   Hey, I'm Andrew 👋{" "}
@@ -52,7 +52,7 @@ const About = () => {
                 <p className="text-[18px] sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   Revolution
                 </p>
-                <p className="text-[#DCDCDC] mt-[15px] border-[grey-900] w-[20px] sm:w-[190px] border-b"></p>
+                <p className="text-[#DCDCDC] line mt-[15px] border-[grey-900] border-b"></p>
                 <p className="sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   Design Lead
                 </p>
@@ -65,7 +65,7 @@ const About = () => {
                 <p className="text-[16px] sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   Circle
                 </p>
-                <p className="text-[#DCDCDC] mt-[15px] border-[grey-900] w-[20px] sm:w-[190px] border-b"></p>
+                <p className="text-[#DCDCDC] line mt-[15px] border-[grey-900]  border-b"></p>
                 <p className="sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   UX Designer
                 </p>
@@ -78,7 +78,7 @@ const About = () => {
                 <p className="text-[18px] sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   360degree
                 </p>
-                <p className="text-[#DCDCDC] mt-[15px] border-[grey-900] w-[20px] sm:w-[190px] border-b"></p>
+                <p className="text-[#DCDCDC] line mt-[15px] border-[grey-900]  border-b"></p>
                 <p className="sm:text-[26px]  mt-3 font-medium  tracking-[-1.5px] text-[#727272]">
                   Designer
                 </p>
