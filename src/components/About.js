@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaTwitter, FaRegArrowAltCircleRight } from "react-icons/fa";
+import { TbScan } from "react-icons/tb";
 const About = () => {
   return (
     <div>
@@ -87,6 +88,59 @@ const About = () => {
               </div>
             </div>
           </div>
+          {/*  */}
+          <div className="grid grid-cols-1 pb-20 sm:grid-cols-4 sm:gap-5 my-7">
+            <a href="#">
+              <div className="bg-white border-0 shadow-xl rounded-2xl divide-white mt-5 sm:mt-0  ">
+                <div className="flex">
+                  <div className="text-[130px] ml-[90px]  py-20 m-auto text-[#f1b43e]">
+                    <FaTwitter />
+                  </div>
+
+                  <div className="text-[#DCDCDC] mb-[40px] mr-[30px] self-end rotate-[312deg] text-4xl">
+                    <FaRegArrowAltCircleRight />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <div className="bg-white border-0 col-span-2 shadow-xl rounded-2xl divide-white mt-5 sm:mt-0  ">
+              <div className="px-9 py-9">
+                <h1 className="pt-[20px] sm:pt-[100px] text-[28px] sm:text-[28px] font-bold tracking-[-2px] leading-[1.2em] text-[#323232]">
+                  Let's work together ✨{" "}
+                </h1>
+                <div className="flex justify-between items-center">
+                  <p className="text-[40px] mt-3 sm:text-[56px] font-bold tracking-[-4px] leading-[1.3em] text-[#f1b43e]">
+                    Get in touch now
+                  </p>
+                  <span className="text-[#DCDCDC] mt-[75px] sm:mt-[15px] text-4xl">
+                    <FaRegArrowAltCircleRight />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white border-0 shadow-xl rounded-2xl divide-white mt-5 sm:mt-0  ">
+              <div className="px-9 pt-16 sm:pt-20">
+                <span className="text-[70px]   text-[#f1b43e]">
+                  <TbScan />
+                </span>
+                <p className="text-[14px] mt-3 sm:text-[14px] font-medium tracking-[-1px] leading-[1.2em] text-[#727272]">
+                  LEARN MORE ABOUT ME
+                </p>
+                <div className="flex justify-between items-center">
+                  <p className="text-[28px] mt-3 pb-7 font-bold tracking-[-2px] leading-[1.2em] text-[#323232]">
+                    See my resume
+                  </p>
+                  <span className="text-[#DCDCDC] mb-[40px] sm:mb-0  text-4xl">
+                    <FaRegArrowAltCircleRight />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/*  */}
         </div>
       </div>
     </div>
