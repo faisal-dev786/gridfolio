@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <div className="bg-[#FCFAF4]">
         <div className="wrapper">
-          <h1 className="about_me text-[65px] sm:text-[300px] text-[#edece8] font-semibold tracking-[-0.05em]">
+          <h1 className="about_me  text-[#edece8] font-semibold tracking-[-0.05em]">
             About Me
           </h1>
           <div className="grid grid-cols-1 sm:mb-8 sm:gap-5 sm:grid-cols-4 ">
